@@ -1,3 +1,18 @@
-# ds_projects
-проекты Аналитика данных
-- **music** проект сравнения предпочтений в музыке Москвы и Питера.
+## Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Аналитик данных" / "Специалист по Data Science".
+
+|проект|описание|Используемые бибилиотеки|
+| :--------------------: | :---------------------: |:---------------------------:|
+| [tarifs](https://github.com/FokinDmitrii/ds_projects/tree/main/tarifs) | проект "Определение выгодного тарифа для телеком компании" На основе данных клиентов оператора сотовой связи проанализировать поведение клиентов и поиск оптимального тарифа | `pandas`, `matplotlib`, `numpy`, `scipy`|
+| [music](https://github.com/FokinDmitrii/ds_projects/tree/main/music) | проект Анализ предпочтений в музыке между Москвой и Санкт-Петербургом. Сравнение жанров по дням недели | `pandas`, `matplotlib`, `numpy`|
+| [reliable_borrower](https://github.com/FokinDmitrii/ds_projects/tree/main/reliable_borrower) | проект анализа надежности заемщиков. Зависит ли вероятность невозврата займа от от наличия детей, семейного положения и цели займа | `Python`, `pandas`|
+| [apartments_spb](https://github.com/FokinDmitrii/ds_projects/tree/main/apartments_spb) | проект анализа зависимости стоимости квадратного метра жилья в Санкт-Петербурге и ближайших городах	выяснены какие факторы влияют на стоимость жилья | `Python`, `matplotlib`, `pandas`, `numpy`|
+| [fotos_age](https://github.com/FokinDmitrii/ds_projects/tree/main/fotos_age) | проект распознания возрааста покупателей по фото обучена нейронная сеть и подобраны параметры для распознавания | `Python`, `Keras`|
+| [choice_tarif](https://github.com/FokinDmitrii/ds_projects/tree/main/choice_tarif) | проект обучение модели машинного обучения для выбора тарифа исходя из потребностей пользователей выбирается тариф оператора связи | `Python`, `pandas`, `Scikit-Learn`|
+| [clients_bank](https://github.com/FokinDmitrii/ds_projects/tree/main/clients_bank) | проект обучение модели машинного обучения для предсказания ухода клиента из банка исходя из исторических данных о клиентах модель предсказывает вероятность ухода клиента  | `Python`, `pandas`, `matplotlib`, `Scikit-Learn`|
+| [location_oil](https://github.com/FokinDmitrii/ds_projects/tree/main/location_oil) | На основе данных геологической разведки выбрать район добычи нефти на геоданных модель предсказывает наиболее прибыльный регион добычи нефти | `Python`, `pandas`, `numpy`, `Scikit-Learn`|
+| [gold](https://github.com/FokinDmitrii/ds_projects/tree/main/gold) | Спрогнозировать концентрацию золота при проведении процесса очистки золота на основе производственных показателях модель предсказывает концентрацию золота при проведении очистки | `Python`, `pandas`, `matplotlib`, `numpy`, `Scikit-Learn`|
+| [personal_data](https://github.com/FokinDmitrii/ds_projects/tree/main/personal_data) | алгоритм защиты персональных данных клиентов персональные данные шивруются методом умножения на случайную обратимую матрицу и проверяется работа модели | `Python`, `pandas`, `numpy`, `Scikit-Learn`|
+| [car_price](https://github.com/FokinDmitrii/ds_projects/tree/main/car_price) | алгоритм расчета стоимости автомобиля с пробегом На основе исторические данные необходимо построить модель для определения стоимости автомобиля | `Python`, `pandas`, `numpy`, `Scikit-Learn`, `matplotlib`, `catboost`, `lightgbm`|
+| [order_taxi](https://github.com/FokinDmitrii/ds_projects/tree/main/order_taxi) | модель чтобы спрогнозировать количество заказов такси на следующий час | `Python`, `pandas`, `numpy`, `Scikit-Learn`, `matplotlib`, `statsmodels`|
+| [toxic_comments](https://github.com/FokinDmitrii/ds_projects/tree/main/toxic_comments) | модель классификации комментариев на позитивные и негативные инструмент, который будет искать токсичные комментарии и отправлять их на модерацию | `Python`, `pandas`, `nltk`, `tf-idf`|
+| [success_game](https://github.com/FokinDmitrii/ds_projects/tree/main/success_game) | статистический анализ успешности игры в зависимости от жанра, региона, рейтинга расчитывается перспективность игры | `Python`, `pandas`, `NumPy`, `scipy`, `matplotlib`|
